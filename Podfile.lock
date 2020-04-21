@@ -1,0 +1,67 @@
+PODS:
+  - Alamofire (4.9.1)
+  - HandyJSON (5.0.1)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - Result (4.1.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SnapKit (4.2.0)
+  - SwiftyJSON (5.0.0)
+  - Toast-Swift (5.0.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - HandyJSON
+  - MagicalRecord (= 2.3.2)
+  - Moya
+  - Moya/RxSwift
+  - RxCocoa
+  - RxSwift
+  - SnapKit (= 4.2.0)
+  - SwiftyJSON (= 5.0.0)
+  - Toast-Swift (= 5.0.0)
+  - YYKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - MagicalRecord
+    - Moya
+    - Result
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - SwiftyJSON
+    - Toast-Swift
+    - YYKit
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: b24921f74508b50a60e5a73c60bb738c0e3bd414
+
+COCOAPODS: 1.9.0

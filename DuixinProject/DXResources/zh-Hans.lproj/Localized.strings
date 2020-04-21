@@ -1,0 +1,413 @@
+/*
+  Localizable.strings
+  Runner
+
+  Created by xlk on 2019/9/18.
+  Copyright © 2019 The Chromium Authors. All rights reserved.
+*/
+"IM_ChatList_Title" = "通讯录";
+"IM_ChatList_Search" = "搜索";
+"IM_ChatList_BuildGroup" = "建群";
+"IM_ChatList_AddFriend" = "添加朋友";
+"IM_ChatList_Scan" = "扫一扫";
+
+"IM_ChatList_NewFriend" = "新朋友";
+"IM_ChatList_MyGroup" = "我的群";
+"IM_ChatList_MyFriend" = "我的朋友";
+
+//AddFriendVC
+"IM_AddFriendVC_Account" = "兑幸账号";
+"IM_AddFriendVC_PhoneContact" = "手机联系人";
+"IM_AddFriendVC_ScanQr" = "扫描二维码名片";
+"IM_AddFriendVC_AddPhoneContact" = "添加通讯录中的朋友";
+"IM_Puclic_Propt" = "提示";
+
+"IM_AddFriendVC_PhoneContact" = "需要访问您的通讯录,请在设置中开启";
+"IM_Puclic_Cancle" = "取消";
+"IM_Puclic_Ok" = "确定";
+"IM_AddFriendVC_MyAccount" = "我的账号";
+
+//ChatSearchResultVC
+"ChatSearchResul_Title" = "搜索结果";
+"ChatSearchResul_NoResult" = "搜索: 无结果";
+"ChatSearchResul_NoAddMine" = "不能添加自己";
+"ChatSearchResul_BeginNoResult" = "暂无结果";
+
+//FriendInfoVC
+"FriendInfo_Note" = "备注";
+"FriendInfo_MsgNotDisturb" = "消息免打扰";
+"FriendInfo_MsgTop" = "聊天置顶";
+"FriendInfo_Complaints" = "投诉";
+"FriendInfo_ClearMsg" = "清空聊天记录";
+
+"FriendInfo_NoteDetail" = "请添加备注";
+"FriendInfo_NoteInfo" = "备注：";
+"FriendInfo_MyIs" = "我是";
+"Public_DataError" = "你的数据异常";
+"FriendInfo_DelFriend" = "好友删除成功";
+
+"FriendInfo_ClearRecord" = "你确定清空聊天记录吗?";
+"FriendInfo_NoteNickname" = "备注的呢称";
+
+//ChangeNoteVC
+"ChangeNote_Finish" = "完成";
+"ChangeNote_NoteName" = "备注名";
+"ChangeNote_GroupName" ="群名称";
+"ChangeNote_NickName" ="昵称";
+"ChangeNote_Name" ="名称";
+
+"ChangeNote_Content" = "请填写内容";
+"ChangeNote_ModifyGroupName" = "群名称修改成功";
+"ChangeNote_ModifyNote" = "备注修改成功";
+
+//NewFriendVC
+"NewFriend_Agree" = "同意好友成功";
+"Public_Agree" = "同意";
+
+//BuildGroupVC
+"BuildGroup_Del" = "删除成员";
+"BuildGroup_Add" = "添加成员";
+"BuildGroup_Member" = "群成员";
+"BuildGroup_FriendMember" = "好友成员";
+"BuildGroup_PlaceSelMember" = "请选择成员";
+
+"BuildGroup_PlaceGroupName" = "请输入群名称";
+"BuildGroup_SetGroupName" = "设置群名称";
+"BuildGroup_SetContentNum" = "最多不超过10个汉字";
+"BuildGroup_SetMemberNum" = "至少3个成员";
+"BuildGroup_DelMember" = "成员删除成功";
+
+"BuildGroup_AddMember" = "添加群成员成功";
+
+//UserChatVC
+"UserChat_Relationship" =  "你不是对方朋友，请联系对方添加好友后聊天。";
+"UserChat_PacketError" =  "红包领取失败";
+"UserChat_IsFriend" =  "已不是好友关系";
+
+//ComplaintsVC
+"Complaints_VideoReport" =  "视频举报";
+"Complaints_Illegal" =  "违法违规";
+"Complaints_Vulgarity" =  "色情低俗";
+"Complaints_Abuse" =  "辱骂,侮辱言语,不良话题";
+"Complaints_Cheating" =  "标题封面,欺骗性";
+
+"Complaints_Advertising" =  "发布垃圾广告";
+"Complaints_Infringement" =  "侵权,盗用我的作品或信息";
+"Complaints_Leaked" =  "泄露我的信息";
+"Complaints_Fraud" =  "存在欺诈行为";
+"Complaints_Harassment" =  "发布骚扰信息";
+
+"Complaints_Rumor" =  "传播谣言";
+"Complaints_Fakegoods" =  "圾广告、售卖假货等";
+"Complaints_InsultsAbuse" =  "侮辱谩骂";
+"Complaints_ContentViolation" =  "内容违规";
+
+//ComplaintContentVC
+"ComplaintContent_Title" = "投诉内容";
+"ComplaintContent_Reason" = "投诉理由";
+"ComplaintContent_Description" = "投诉描述";
+"ComplaintContent_MoreFont" = "最多200字";
+"ComplaintContent_Credentials" = "上传凭证：";
+
+"ComplaintContent_Des" = "每张图片大小不超过5M，最多4张，支持JPG、PNG格式";
+"Public_Commit" = "提交";
+"Public_CommitNum" = "最多提交4张";
+"ComplaintContent_Content" = "请填写投诉内容";
+"ComplaintContent_Success" = "投诉提交成功";
+
+"ComplaintContent_ImgError" = "图片上传失败";
+
+//GroupInfoVC
+"GroupInfo_QR" = "二维码";
+"GroupInfo_MyGroupName" = "我在本群的呢称";
+"GroupInfo_ClearMsg" = "清除聊天记录";
+"GroupInfo_Exit" = "删除并退出";
+"GroupInfo_ClearRecord" = "你确定清空聊天记录吗?";
+
+"GroupInfo_NoManaget" = "你不是群主";
+"GroupInfo_GroupAd" = "群组公告";
+"GroupInfo_GroupDissolution" = "解散本群";
+
+//GroupAnnouncementVC
+"GroupAnnouncement_Placeholder" = "请输入群组公告";
+
+//GroupQrVC
+"GroupQr_Title" = "群二维码";
+"GroupQr_Effective" = "该二维码7天内有效";
+"GroupQr_SaveImg" = "保存图片";
+"GroupQr_SaveImgError" = "保存图片失败";
+"GroupQr_SaveImgSuccess" = "保存图片成功";
+
+//QrScanerVC
+"QrScaner_CamnerPropt" = "需要访问您的相机,请在设置中开启";
+"QrScaner_Camner" = "轻触照亮";
+"QrScaner_DataNull" = "你的数据为空";
+"QrScaner_NoReult" = "暂无结果";
+
+//ContactsVC
+"Contacts_AddFriend" = "添加好友";
+"Contacts_IsAdd" = "已添加";
+"Contacts_Add" = "添加";
+
+//FriendValidationVC
+"FriendValidation_Title" = "朋友验证";
+"Public_Send" = "发送";
+"FriendValidation_Des" = "你需要发送验证申请,等对方通过";
+"FriendValidation_reason" = "申请理由";
+
+//AddGroupVC
+"AddGroup_Title" = "确认加入群组";
+"AddGroup_Add" = "加入该群聊";
+"AddGroup_Join" = "进入群";
+"AddGroup_JoinGroup" = "进入群聊";
+"AddGroup_JoinGroupChat" = "加入该群聊";
+
+//WelfareVC
+"Welfare_Title" = "发福利";
+"Welfare_Des" = "大吉大利";
+"Welfare_Welfare" = "福利";
+"Welfare_Amount" = "金额";
+"Welfare_PacketNum" = "红包个数";
+
+"Welfare_Unit" = "个";
+"Welfare_WriteNum" = "请填写个数";
+"Welfare_APacket" = "单个红包";
+"Welfare_PacketOrdinary" = "当前为普通红包，改为拼手气红包";
+"Welfare_PacketLuck" = "当前为拼手气红包，改为普通红包";
+
+"Welfare_AllAmount" = "总金额";
+"Welfare_Lack" = "福利不足";
+"Welfare_top_up" = "充值";
+"Welfare_Toas" = "请输入金额";
+"Welfare_InputPacketNum" = "请输入红包个数";
+
+"Welfare_SendError" = "红包发送失败";
+
+//WealDetailsVC
+"WealDetails_Des" = "未领取的红包，将于24小时后退还";
+"WealDetails_OfPacket" = "的红包";
+"WealDetails_Receive" = "已领取";
+"WealDetails_A" = "个，共";
+
+//WealValueVC
+"WealValue_Propt" = "已存入我的福利，立即查看>";
+"WealValue_Received" = "对方已领取";
+"WealValue_WaitReceived" = "等待对方领取";
+
+//CallsModel
+"CallsModel_Propt" = "欠费导致服务暂停";
+
+//VideoCallVC
+"VideoCall_Camaner" = "获取摄像头权限失败，请前往隐私-相机设置里面打开应用权限";
+"VideoCall_Micphone" = "获取麦克风权限失败，请前往隐私-麦克风设置里面打开应用权限";
+"VideoCall_NobodyReply" = "无人应答...";
+"VideoCall_NoReply" = "对方无应答";
+"VideoCall_WaitAcceptance" = "正在等待对方接受邀请...";
+
+"VideoCall_InviteVideo" = "邀请你视频通话";
+"VideoCall_Refused" = "拒绝";
+"VideoCall_VoiceCalls" = "邀请你语音通话";
+"VideoCall_Camane" = "切换摄像头";
+"VideoCall_HangUp" = "挂断";
+
+"VideoCall_Mute" = "静音";
+"VideoCall_hands_free" = "免提";
+"VideoCall_Answer" = "接听";
+"VideoCall_ISAnswer" = "已接听";
+"VideoCall_Nickname" = "昵称";
+
+"VideoCall_CutVoice" = "切到语音通话";
+"VideoCall_Time" = "通话时长";
+"VideoCall_Refused_Notice" = "对方已拒绝";  //拒绝通话
+
+//TRecordView
+"TRecordView_SendVoice1" = "手指上滑，取消发送";
+"TRecordView_SendVoice2" = "松开手指，取消发送";
+"TRecordView_SendVoice3" = "说话时间太短";
+"TRecordView_SendVoice4" = "说话时间太长";
+
+//KeyboardView
+"KeyboardView_Propt" = "输入内容";
+"KeyboardView_Talk" = "按住 说话";
+"KeyboardView_MIcphone" = "需要访问您的麦克风,请在设置中开启";
+"KeyboardView_LoosenEnd" = "松开结束";
+"KeyboardView_PullCancle" = "上拉取消";
+
+//KeyMoreView
+"KeyMoreView_Voice" = "语音通话";
+"KeyMoreView_Video" = "视频通话";
+"KeyMoreView_Shoot" = "拍摄";
+"KeyMoreView_Photo" = "相册";
+"KeyMoreView_NetPropt" = "当前网络不可用,无法通话,请检查你的网络设置";
+
+"KeyMoreView_Unable" = "正在语音通话，无法再次发起";
+
+//RecordButtomV
+"RecordButtomV_ShootVideo" = "拍视频";
+"RecordButtomV_Upload" = "上传";
+
+//FunctionRightV
+"FunctionRightV_beautify" = "美化";
+"FunctionRightV_flip" = "翻转";
+"FunctionRightV_CutDown" = "倒计时";
+
+//FilterSkinCareV
+"FunctionRightV_Yuanshi" = "原始";
+"FunctionRightV_Biaozhun" = "标准";
+"FunctionRightV_Yinghong" = "樱红";
+"FunctionRightV_Yunshang" = "云裳";
+"FunctionRightV_Chunzhen" = "纯真";
+
+"FunctionRightV_Bailan" = "白兰";
+"FunctionRightV_Yuanqi" = "元气";
+"FunctionRightV_Chaotuo" = "超脱";
+"FunctionRightV_Xiangfen" = "香氛";
+"FunctionRightV_Langman" = "浪漫";
+
+"FunctionRightV_Qingxin" = "清新";
+"FunctionRightV_Weimei" = "唯美";
+"FunctionRightV_Fennen" = "粉嫩";
+"FunctionRightV_Huaijiu" = "怀旧";
+"FunctionRightV_Landiao" = "蓝调";
+
+"FunctionRightV_Qingliang" = "清凉";
+"FunctionRightV_Rixi" = "日系";
+"FunctionRightV_Filter" = "滤镜";
+"FunctionRightV_Skin" = "美颜";
+"FunctionRightV_Exfoliating" = "磨皮";
+
+"FunctionRightV_White" = "美白";
+"FunctionRightV_Ruddy" = "红润";
+
+//ActivtyPubCell
+"ActivtyPubCell_All" = "共";
+"ActivtyPubCell_Quota" = "个名额";
+
+//EditVideoVC
+"EditVideo_Next" = "下一步";
+"EditVideo_Video" = "视频合成中";
+
+//ImagePickerVC
+"ImagePicker_Title" = "照片";
+"ImagePicker_CamanePropt" = "请在iphone的“设置-隐私-照片“选项中，允许兑幸访问你的手机相册";
+"ImagePicker_VideoNum" = "个视频";
+
+//PublishWorkVC
+"PublishWork_Title" = "发布";
+"PublishWork_Cover" = "选封面";
+"PublishWork_Propt" = "好的描述能让你赚到更多福利哦~";
+"PublishWork_Activity" = "活动截至日期：";
+"PublishWork_Date" = "年-月-日";
+
+"PublishWork_Time" = "时-分-秒";
+"PublishWork_Prize" = "奖品";
+"PublishWork_Send" = "发布开始赚福利";
+"PublishWork_Save" = "保存本地";
+"PublishWork_Pub" = "发布成功";
+
+//RecordVideoVM
+"RecordVideoVM_VideoError" = "视频合成失败";
+
+//LiveChatRoomCell
+"LiveChatRoomCell_JoinRoom" = "进入了房间";
+"LiveChatRoomCell_SendActivity" = "主播发布了抽奖活动";
+
+//PacketPayView
+"PacketPayView_CodePayment" = "验证码支付";
+"PacketPayView_Pwd" = "密码支付";
+"PacketPayView_Happiness" = "兑幸福利";
+"PacketPayView_Code1" = "验证码已发送到";
+"PacketPayView_Code2" = "请注意查收！";
+
+"PacketPayView_Propt" = "请输入密码支付";
+"PacketPayView_Pay" = "支付";
+"PacketPayView_PwdPropt" = "请输入密码";
+"PacketPayView_SendSMSSuc" = "短信发送成功";
+"PacketPayView_SendSMSError" = "短信发送失败";
+
+//ReceivepacketOutView
+"ReceivepacketOutView_Propt" = "恭喜发财";
+"ReceivepacketOutView_GetOut" = "领完啦";
+"ReceivepacketOutView_ThanTime" = "该红包已超过24小时。";
+"ReceivepacketOutView_Detail" = "如已领取可在详情中查看。";
+"ReceivepacketOutView_ToDetail" = "查看领取详情>";
+
+"ReceivepacketOutView_Overdue" = "该红包已过期";
+
+//FriendInfoCell
+"FriendInfoCell_note" = "备注昵称";
+
+//GroupInfoheaderView
+"GroupInfoheaderView_MoreMember" = "查看更多成员";
+"GroupInfoheaderView_NoMore" = "没有更多成员了";
+"GroupInfoheaderView_GroupAdmin" = "群主";
+
+//LogoutConfirmView
+"LogoutConfirmView_Exit" = "确定要退出该出群吗？";
+"LogoutConfirmView_ExitBtn" = "确定退出";
+"LogoutConfirmView_Think" = "我再想想";
+
+//IMSystemCell
+"IMSystemCell_Receive" = "你领取了";
+"IMSystemCell_Packet" = "的福利红包";
+"IMSystemCell_Packet2" = "已领取了你的福利红包";
+"IMSystemCell_Packet3" = "已领取了";
+
+//ManagerIM
+"ManagerIM_Propt" = "请求成功";
+"ManagerIM_Propt1" = "请求成功,等待对方同意";
+"ManagerIM_Packet" = "[红包]";
+"ManagerIM_PacketReceive" = "[红包领取消息]";
+"ManagerIM_Video" = "[视频通话]";
+
+"ManagerIM_Voice" = "[语音通话]";
+"ManagerIM_NO" = "[未知消息]";
+"ManagerIM_IMG" = "[图片]";
+"ManagerIM_VoicePropt" = "[语音]";
+"ManagerIM_VideoPropt" = "[视频]";
+
+"ManagerIM_Animation" = "[动画表情]";
+"ManagerIM_GroupName" = "修改群名为";
+"ManagerIM_GroupJianJie" = "修改群简介为";
+"ManagerIM_GroupGonggao" = "修改群公告为";
+"ManagerIM_GroupAdmin" = "修改群主为";
+
+"ManagerIM_GroupExit" = "剔出群组";
+"ManagerIM_GroupWill" = "将";
+"ManagerIM_Invitation" = "邀请";
+"ManagerIM_JoinGroup" = "加入群组";
+
+//IMMessageModel
+"IMMessageModel_CancleChat" = "已取消聊天";
+"IMMessageModel_Refused" = "已拒绝";
+"IMMessageModel_RefusedDuifang" = "对方已拒绝";
+"IMMessageModel_CallTime" = "通话时间";
+"IMMessageModel_Busy" = "对方在忙";
+
+"IMMessageModel_Biaoqing" = "[表情]";
+"IMMessageModel_Call" = "[通话]";
+"IMMessageModel_PacketReceive" = "[红包领取]";
+
+//IMRequest
+"IMRequest_Error" = "请求出错";
+"IMRequest_CreateGroupError" = "建群失败";
+"IMRequest_complaintsError" = "投诉提交失败";
+"IMRequest_FriendsError" = "好友获取失败";
+"IMRequest_AgreeFriendsError" = "同意好友失败";
+
+"IMRequest_PwdError" = "密码错误";
+"IMRequest_CodeError" = "验证码错误";
+
+//MainChannel
+"MainChannel_CamanePropt" = "需要访问您的相机及麦克风,请在设置中开启";
+"MainChannel_ProptExit" = "您的聊天账号已在其他终端登录,是否重新登录";
+"MainChannel_Failure" = "您的聊天账号已失效,是否重新登录";
+
+//DSLiveRoomView
+"DSLiveRoomView_NetError" = "你的网络出现问题,请重新链接";
+"DSLiveRoomView_NetError2" = "当前网络问题，经多次连接未果，即将关闭直播";
+"DSLiveRoomView_NetError3" = "您当前的网络环境不佳，请尽快更换网络保证正常直播";
+"DSLiveRoomView_NetError4" = "当前网络问题，连接不上主播，即将退出，请检查您的网络";
+
+"DSLiveRoomView_NetError6" = "您当前的网络环境不佳，请尽快更换网络";
+"DSLiveRoomView_JoinRoomError" = "进入直播房间失败，请重新进入";
